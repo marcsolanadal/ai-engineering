@@ -8,9 +8,15 @@ Every source I consume will live in their own repository. If I start consuming m
 
 If In the future I need to have notes from other areas of knowledge I can always merge the notes into my main repository.
 
-## Decprypt the book
+## 📖 How to get the book?
 
 > The book is encrypted using AGE with my ssh dev key.
+
+To decrypt the book use:
+
+```sh
+devenv tasks run decrypt:book
+```
 
 ## Structure
 
