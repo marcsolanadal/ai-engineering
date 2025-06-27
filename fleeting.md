@@ -3,6 +3,11 @@
 
 date: [[2025/06/27]]
 
+## Resources
+
+- [list of AI apps](https://huyenchip.com/llama-police)
+- [aicommits](https://github.com/Nutlope/aicommits) -> tool for autogenerating commit messages
+
 
 ## Glossary of concepts
 
@@ -17,6 +22,7 @@ date: [[2025/06/27]]
 - *prompt engineering*: The process of creating prompts for our models.
 - *RAG*: Acronym of Reatrival Augmented Generation.
 - *finetunning* is the process of further training the model on a high quality dataset to perform an specific task.
+- *agents*: AI's that can plan and use tools.
 
 ## Chapter 1
 
@@ -38,3 +44,11 @@ date: [[2025/06/27]]
 - The current paradigm is to use a llm or foundation model from a provider and build RAG, finetune or craft some prompts on top of the model to perform the task at hand. The problem I see with that is the dependency on that foundation model. What will happen when the foundation model is so capable that it can perform the task you're building the app for? Your app will be left to oblivion since noone will pay for a service that the foundation model provides for free. For me this is the curse of building apps on top of models.
 - The amount in founding and ai investment skyrocketed 2023. IMO it will make AI progress move even faster.
 - page 14. `Anyone, and I mean anyone, can now develop AI applications`
+- page 19. Companies are more likely to deploy internal AI applications instead of consumer facing ones.
+- page 20. https://github.com/Nutlope/aicommits
+- page 21. Jensen Huang thinks that code will no longer be relevant. I accepted that I'll be replaced or my job will completely change.
+- page 21. AI is much better at FE dev than BE dev. I think this is interesing. This is provably due to the fact that the FE tends to have less business logic. Without the proper context an AI can easily mess up the business logic.
+- page 22. It's scary to think the level on which adds will be targeted. Currently adds can be generated and tested (A/B testing) to see which ones generate more engagement. Adds can also be customized to season and region. Maybe in the future they will be custom to your digital persona
+- page 24. The strategy to generate a site optimized for SEO and sell advertising spots via exchanges is nefarious and genious at the same time. This strategy is hitting hard google since the top spots on searches will be junk generated sites. This will decrese the quality of the Internet's content...
+- page 24. AI should be used to generate a personalized study plan. At EDPuzzle we should focus on gathering student data so we can tailor the content to their needs.
+- page 28. IDP (Intelligent Data Processing) is an industry that will grow a lot. It's based on extracting data from contracts, reports, charts...
