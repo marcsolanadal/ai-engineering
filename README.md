@@ -22,5 +22,7 @@ devenv tasks run decrypt:book
 
 My note-taking draws some of the zettlekasten elements that worked for me.
 
-- `fleeting.md` -> Here I'll add my raw notes while I'm consuming the book. Ideally, those will have the page that sparkled the idea.
-- `notes/` -> Folder with the processed atomic notes
+- `notes/`
+  - `fleeting.md` -> Raw notes while consuming the book
+  - `index.md` -> Index with links to all the notes
+  - `atomic/` -> Atomic notes
