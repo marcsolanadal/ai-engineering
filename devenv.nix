@@ -18,7 +18,7 @@
   '';
 
   tasks = {
-    "decrypt:book".exec = "age -d -i ~/.ssh/id_dev aiengineering.pdf.age > aiengineering.pdf";
+    "decrypt:book".exec = "cd resources && age -d -i ~/.ssh/id_dev aiengineering.pdf.age > aiengineering.pdf";
   };
 
   git-hooks.hooks = {
