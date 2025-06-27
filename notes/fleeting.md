@@ -23,6 +23,8 @@ date: [[2025/06/27]]
 - *RAG*: Acronym of Reatrival Augmented Generation.
 - *finetunning* is the process of further training the model on a high quality dataset to perform an specific task.
 - *agents*: AI's that can plan and use tools.
+- *human-in-the-loop*: When an AI agent involves humans in the decision making process.
+- *inference*: The process of getting an output given an input.
 
 ## Chapter 1
 
@@ -52,3 +54,7 @@ date: [[2025/06/27]]
 - page 24. The strategy to generate a site optimized for SEO and sell advertising spots via exchanges is nefarious and genious at the same time. This strategy is hitting hard google since the top spots on searches will be junk generated sites. This will decrese the quality of the Internet's content...
 - page 24. AI should be used to generate a personalized study plan. At EDPuzzle we should focus on gathering student data so we can tailor the content to their needs.
 - page 28. IDP (Intelligent Data Processing) is an industry that will grow a lot. It's based on extracting data from contracts, reports, charts...
+- page 30. We want to use a dynamic feature since adapting to the changes in performance of the user will be key. Each user should have their own model.
+- page 31. There're three types of competitive advantages for companies in AI: technology, data and distribution. Technology is the same for all competitors so it doesn't matter. Distribution belongs to the owner of the foundation models. The data advantage is the one that can really have impact and allow a company to have an advantage over the competition.
+- page 31. #lookup Data flywheel
+- page 33. When designing an AI application the [[pareto principle]] applies. Having a prototype that does 80% of what you want it's easy. Removing all the hallucinations and bringing the product to production ready takes a lot more time. That begs the question, if foundation models improve to the point that don't hallucinate. Is this difficulty going to disappear? what will happen to the so called "AI Engineers"?
