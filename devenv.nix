@@ -9,6 +9,7 @@
     git
     age
     glow
+    typos
   ];
 
   enterShell = ''

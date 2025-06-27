@@ -12,9 +12,9 @@ date: [[2025/06/27]]
 ## Glossary of concepts
 
 - *token*: Basic unit of a LLM
-- *tokenization*: The proccess of breaking the original text into tokens. An average token is 3/4 the size of a word.
+- *tokenization*: The process of breaking the original text into tokens. An average token is 3/4 the size of a word.
 - *masked language model*: Trained to predict missing tokens before and after the missing tokens. I.e. "My favorite ___ is blue" should predict the missing word is color. They're commonly used for non-generative tasks such as sentiment analysis or code debugging.
-- *autoregressive language model*: Trained to predict the nect work in a sequence.
+- *autoregressive language model*: Trained to predict the next work in a sequence.
 - *supervised learning*: ML algorithms trained on labeled data.
 - *self-supervised learning*: ML algorithms infer labels for the input data.
 - *unsupervised learning*: The algorithm don't need labels at all.
@@ -49,9 +49,9 @@ date: [[2025/06/27]]
 - page 19. Companies are more likely to deploy internal AI applications instead of consumer facing ones.
 - page 20. https://github.com/Nutlope/aicommits
 - page 21. Jensen Huang thinks that code will no longer be relevant. I accepted that I'll be replaced or my job will completely change.
-- page 21. AI is much better at FE dev than BE dev. I think this is interesing. This is provably due to the fact that the FE tends to have less business logic. Without the proper context an AI can easily mess up the business logic.
+- page 21. AI is much better at FE dev than BE dev. I think this is interesting. This is provably due to the fact that the FE tends to have less business logic. Without the proper context an AI can easily mess up the business logic.
 - page 22. It's scary to think the level on which adds will be targeted. Currently adds can be generated and tested (A/B testing) to see which ones generate more engagement. Adds can also be customized to season and region. Maybe in the future they will be custom to your digital persona
-- page 24. The strategy to generate a site optimized for SEO and sell advertising spots via exchanges is nefarious and genious at the same time. This strategy is hitting hard google since the top spots on searches will be junk generated sites. This will decrese the quality of the Internet's content...
+- page 24. The strategy to generate a site optimized for SEO and sell advertising spots via exchanges is nefarious and genius at the same time. This strategy is hitting hard google since the top spots on searches will be junk generated sites. This will decrease the quality of the Internet's content...
 - page 24. AI should be used to generate a personalized study plan. At EDPuzzle we should focus on gathering student data so we can tailor the content to their needs.
 - page 28. IDP (Intelligent Data Processing) is an industry that will grow a lot. It's based on extracting data from contracts, reports, charts...
 - page 30. We want to use a dynamic feature since adapting to the changes in performance of the user will be key. Each user should have their own model.
