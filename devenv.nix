@@ -20,5 +20,8 @@
     "decrypt:book".exec = "age -d -i ~/.ssh/id_dev aiengineering.pdf.age > aiengineering.pdf";
   };
 
-  git-hooks.hooks.mdsh.enable = true;
+  git-hooks.hooks = {
+    mdsh.enable = true;
+    typos.enable = true;
+  };
 }
