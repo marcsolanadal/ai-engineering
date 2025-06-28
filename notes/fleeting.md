@@ -1,7 +1,7 @@
 # AI ENGINEERING
 ---
 
-date: [[2025/06/27]]
+start_date: [[2025/06/27]]
 
 ## Resources
 
@@ -25,8 +25,9 @@ date: [[2025/06/27]]
 - *agents*: AI's that can plan and use tools.
 - *human-in-the-loop*: When an AI agent involves humans in the decision making process.
 - *inference*: The process of getting an output given an input.
+- *quantization*: The process of reducing the precision of model weights.
 
-## Chapter 1
+## Chapter 1 - Introduction to Building AI Applications with Foundation Models
 
 - Developers can set the *vocabulary* size and the tokenization method.
 - Tokens are used instead of words since they're the minimal unit of meaning in language. I.e. chatGPTing. ChatGPT + ing, although the word is invented we can understand what it means.
@@ -57,4 +58,16 @@ date: [[2025/06/27]]
 - page 30. We want to use a dynamic feature since adapting to the changes in performance of the user will be key. Each user should have their own model.
 - page 31. There're three types of competitive advantages for companies in AI: technology, data and distribution. Technology is the same for all competitors so it doesn't matter. Distribution belongs to the owner of the foundation models. The data advantage is the one that can really have impact and allow a company to have an advantage over the competition.
 - page 31. #lookup Data flywheel
-- page 33. When designing an AI application the [[pareto principle]] applies. Having a prototype that does 80% of what you want it's easy. Removing all the hallucinations and bringing the product to production ready takes a lot more time. That begs the question, if foundation models improve to the point that don't hallucinate. Is this difficulty going to disappear? what will happen to the so called "AI Engineers"?
+- page 33. When designing an AI application the **pareto principle** applies. Having a prototype that does 80% of what you want it's easy. Removing all the hallucinations and bringing the product to production ready takes a lot more time. That begs the question, if foundation models improve to the point that don't hallucinate. Is this difficulty going to disappear? what will happen to the so called "AI Engineers"?
+- page 37. We have three layers of abstraction in AI engineering: Application, Model and Infrastructure.
+- page 39-40. The main difference between traditional ML and the current "AI Engineering" trend is that the later focus more in the tuning of the model (with prompts and other methods). Traditional ML focuses on training the models to perform a certain task. LLMs have more letancy so we need a lot of optimization. In addition, since they produce open-ended outputs, they're hard to evaluate.
+- page 40. There're two methods for model adaptation: prompt-based techniques (do not modify the weights of the model), finetuning requires updating the model weights.
+- page 41. Modeling and training knowledge is not a requirement to be able to work with LLMs.
+- page 41. *pre-training* is the process of training the model from scratch. It take a bast amount of resources to do and only a few know how to do it effectively at scale. *finetuning* and *post-training* take the trained weights and modifies them for a specific task.
+- page 41. The difference between *finetuning* and *post-training* is nuanced. Finetuning is done by application developers while post-training is usually done by model developers.
+- page 42. Data will be the main differentatior knowing dataset engineering will be a really nice skill to have.
+- page 42. Since most foundation models are autoregressive their output latencies are linear. I.e. if it takes 0.1s to produce a token it will take 1s to produce 10. Since users are impatient (provably due to current social media trends) this latency needs to be driven down. This is what *inference optimization* tried to do.
+- page 47. One advantage that full-stack engineers have over ML engineers is their ability to turn ideas into demos.
+
+## Chapter 2 - Understanding Foundation Models
+
